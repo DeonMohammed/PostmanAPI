@@ -34,11 +34,13 @@ Each test case covers different scenarios for the API endpoints specified in the
 | TC008            | Create Token                        | POST            | Authenticate with credentials to generate a token.                                                         | Response status code is 200. Response time is less than 1500ms.                                           | Check proper authentication process that does not take much time.                                          |
 | TC009            | Update Booking                      | PUT             | Update booking details for booking ID 1521.                                                                | Response status code is 200. Response time is less than 1500ms.                                           | Ensure the same booking ID with its specific id is required.                                              |
 
+## Conclusion
+
+This README provided an overview of how the Restful-Booker API was utilized in a project, detailing its functionalities and the test plan executed using Postman. The project demonstrated various CRUD operations and API interactions facilitated by Restful-Booker.
+
+---
 
 
-This README provided an overview of the Restful-Booker API along with its test plan and test cases using Postman. For more details, refer to the [full documentation](#) or explore the [API collection](#) directly in Postman.
 
-If you have any questions, feedback, or issues, please feel free to [contact us](#) or open an [issue](#) on GitHub.
 
-Thank you for using Restful-Booker!
 
